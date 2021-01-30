@@ -1,0 +1,40 @@
+name: covid19_tracking
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  font_awesome_flutter: ^8.11.0
+  provider: ^4.3.3
+  intl: ^0.16.1
+  http: ^0.12.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo/
+    - assets/images/icons/
+    - assets/images/country_flags/
+
+  fonts:
+    - family: ABeeZee
+      fonts:
+        - asset: assets/fonts/ABeeZee/ABeeZee-Regular.ttf
+
+    - family: Acme
+      fonts:
+        - asset: assets/fonts/Acme/Acme-Regular.ttf
